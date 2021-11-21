@@ -1,4 +1,4 @@
-cclass PostsController < ApplicationController
+class PostsController < ApplicationController
 
 def index
   @posts = Post.order(id: "DESC")
